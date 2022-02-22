@@ -1,0 +1,78 @@
+.ui.borderless.menu.social-media {
+    background-color: black;
+    border: none;
+    box-shadow: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ui.borderless.menu.car {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ui.fixed.sticky{
+    background-color: white;
+    opacity: 1;
+}
+
+.white-circle {
+    font-size: 10px;
+}
+
+.ui.fixed.sticky + p {
+    margin-top: 39px;
+}
+
+a > .white-circle {
+    font-size: 30px;
+}
+
+.ui.four.column.grid {
+    padding-top: 20px;
+}
+
+.ui.container > .ui.container.supra {
+    height: 400px;
+}
+
+.ui.center.aligned.container.front-supra > .center{
+    padding: 3.125em 0 8.125em 0;
+}
+.ui.big.button.shop-supra {
+    background-color: white;
+    color: black;
+}
+
+.ui.center.aligned.container.front-supra {
+}
+
+.columns > .ui.container.front-supra {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dw6d8599a3/v2/model/GRSupra/feature/22_Supra_Barker_1280x480.jpg");
+    opacity: 0.8;
+    color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.circle > a > .white-circle {
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    line-height: 40px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+}
+
+.medium-small {
+    width: 203px;
+}
