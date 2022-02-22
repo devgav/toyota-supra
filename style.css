@@ -76,3 +76,38 @@ a > .white-circle {
 .medium-small {
     width: 203px;
 }
+
+/*CUSTOM WIDTH FOR UI CONTAINER */
+.ui.container {
+    width: 1498px;
+}
+
+.ui.grid.container {
+    width: calc( 1498px  +  2rem ) !important;
+}
+
+.ui.relaxed.grid.container {
+    width: calc( 1498px  +  3rem ) !important;
+}
+
+.ui.very.relaxed.grid.container {
+    width: calc( 1498px  +  5rem ) !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ui.container {
+        width: 1498px;
+    }
+
+    .ui.grid.container {
+        width: calc( 1498px  +  2rem ) !important;
+    }
+
+    .ui.relaxed.grid.container {
+        width: calc( 1498px  +  3rem ) !important;
+    }
+
+    .ui.very.relaxed.grid.container {
+        width: calc( 1498px  +  5rem ) !important;
+    }
+}
