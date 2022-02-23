@@ -1,3 +1,6 @@
+body {
+    position: relative;
+}
 .ui.borderless.menu.social-media {
     background-color: black;
     border: none;
@@ -11,7 +14,7 @@
     padding-bottom: 10px;
 }
 
-.ui.fixed.sticky{
+.ui.fixed.top{
     background-color: white;
     opacity: 1;
 }
@@ -20,6 +23,9 @@
     font-size: 10px;
 }
 
+.ui.huge.header.large-model {
+    font-size: 40px;
+}
 .ui.fixed.sticky + p {
     margin-top: 39px;
 }
@@ -73,8 +79,65 @@ a > .white-circle {
     font-size: 2em;
 }
 
+.ui.four.column.grid {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+.ui.grid.inside-supra > .column.based {
+    background-color: rgba(0, 0, 0, 0.8); color: white; height: 183px;
+}
+
+.ui.grid.super-supra > .column.based {
+    background-color: rgba(0, 0, 0, 0.8); color: white; height: 183px;
+}
+.ui.grid.super-supra {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dwd7d793e5/v2/model/GRSupra/feature/MY21-Supra-Beautifully-Engineered_1594257744_5f067150b8b73.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.ui.grid.inside-supra {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dw77904a95/v2/model/GRSupra/feature/20MY_Supra_Interior_1566415904_5d5d9c200c74b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.exterior.background {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dwb5902ba5/v2/model/GRSupra/gallery/MY20_Supra_Ext-1_MY20_Supra_Ext-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 600px;
+}
+.interior.background {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dw3bc1d411/v2/model/GRSupra/gallery/22_Supra_Int1_1499x522.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.white-text {
+    margin-left: 8%;
+    color: white;
+}
 .medium-small {
     width: 203px;
+}
+
+span.disc {
+    color: red;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    font-size: 70%;
+    vertical-align: super;
+}
+
+.ui.medium.red.header.modal-link {
+    text-decoration: underline;
 }
 
 /*CUSTOM WIDTH FOR UI CONTAINER */
